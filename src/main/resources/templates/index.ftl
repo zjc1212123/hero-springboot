@@ -6,9 +6,9 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="../layui/css/layui.css" media="all">
-    <script src="../layui/layui.js" charset="utf-8" type="text/javascript"></script>
-    <script src="../jquery-3.4.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../lib/layui-v2.6.3/css/layui.css" media="all">
+    <script src="../lib/jquery-3.4.1/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="../lib/layui-v2.6.3/layui.js" charset="utf-8" type="text/javascript"></script>
 </head>
 <body>
 <div class="layui-btn-container">

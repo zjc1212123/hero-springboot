@@ -1,6 +1,7 @@
 package com.zjc.dao;
 
 import com.zjc.entity.Hero;
+import com.zjc.entity.User;
 import org.apache.ibatis.annotations.*;
 
 
@@ -41,4 +42,10 @@ public interface HeroDao {
      */
     @Insert("insert into hero (name,avatar,type,skill,skill_describe) values(#{name},#{avatar},#{type},#{skill},#{skill_describe})")
     boolean addHero(Hero hero);
+
+    /*
+     * 查询用户登录,根据用户名查询
+     */
+    @Select("select * from user where username = #{username}")
+    User isUser(User user);
 }
